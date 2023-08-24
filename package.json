@@ -4,7 +4,7 @@
     "description": "BlueSky Statistics Test dialogs",
     "keywords": [],
     "main": "nav.js",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "BlueSky Statistics",
 	"minBSkyVersion": "10.2.0",
 	"requiredPackages":[],

@@ -47,10 +47,10 @@ help(lm, package ='stats')
     }
 }
 
-class example1 extends baseModal {
+class Example1 extends baseModal {
     constructor() {
         var config = {
-            id: "example1",
+            id: "Example1",
             label: localization.en.title,
             modalType: "two",
             RCode: `
@@ -147,4 +147,4 @@ BSkyFormat(BSky_LM_Summary_{{selected.modelname | safe}}, singleTableOutputHeade
         this.help = localization.en.help;
     }
 }
-module.exports.item = new example1().render()
+module.exports.item = new Example1().render()
