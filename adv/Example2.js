@@ -2,7 +2,7 @@
 var localization = {
     en: {
         title: "Example2-1.0.4",
-        navigation: "Example2-1.0.4",
+        navigation: "Example2-1.0.5",
         modelname: "Enter Model Name",
         dependent: "Dependent variable",
         independent: "Independent variable(s)",
