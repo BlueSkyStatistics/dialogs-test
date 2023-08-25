@@ -7,8 +7,8 @@ const nav = [
 				"name": "Test",
 				"icon": "icon-survival",
 				"children": [
-					"./example1",
-					"./adv/example2"
+					"./Example1",
+					"./adv/Example2"
 
 				]
 			}, 	
@@ -16,7 +16,7 @@ const nav = [
 				"name": "Tables",
 				"icon": "icon-table_basic",
 				"children": [
-					"./misc/example3"
+					"./misc/Example3"
 				]
 			}                  
 		]
