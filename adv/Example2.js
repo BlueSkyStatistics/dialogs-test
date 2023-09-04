@@ -1,5 +1,5 @@
 
-var dialogEdition = "Pro"
+var dialogEditions = ["Pro", "Enterprize"]
 var localization = {
     en: {
         title: "Example2-1.0.6",
@@ -149,4 +149,4 @@ BSkyFormat(BSky_LM_Summary_{{selected.modelname | safe}}, singleTableOutputHeade
     }
 }
 module.exports.item = new Example2().render()
-module.exports.dialogEdition = dialogEdition
+module.exports.dialogEditions = dialogEditions
