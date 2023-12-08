@@ -8,8 +8,8 @@
 
 var localization = {
     en: {
-        title: "Example1-1.2.5",
-        navigation: "Example1-1.2.4",
+        title: "Example1-1.2.6",
+        navigation: "Example1-1.2.6",
         modelname: "Enter Model Name",
         dependent: "Dependent variable",
         independent: "Independent variable(s)",
