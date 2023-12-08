@@ -1,8 +1,15 @@
 
+/*
+  This file is protected by copyright (c) 2023-2024 by BlueSky Statistics, LLC.
+  All rights reserved. The copy, modification, or distribution of this file is not
+  allowed without the prior written permission from BlueSky Statistics, LLC.
+*/
+
+
 var localization = {
     en: {
-        title: "Example1-1.1.3",
-        navigation: "Example1-1.1.3",
+        title: "Example1-1.1.4",
+        navigation: "Example1-1.1.4",
         modelname: "Enter Model Name",
         dependent: "Dependent variable",
         independent: "Independent variable(s)",
