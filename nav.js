@@ -34,7 +34,8 @@ module.exports.nav = nav
 (function () {
 	const semverLte = require('semver').lte
     let sessionStore = new Store({name:`constants`});
-    if  (sessionStore.get("version") !== undefined && semverLte(`${sessionStore.get("version")}`, `10.3.3`)) {
+	let vers = sessionStore.get("version")
+    if  ( vers !== undefined && semverLte(`${vers}`, `10.3.3`)) {
         var modules = JSON.parse(fs.readFileSync(path.join(sessionStore.get("userData"), "modules.json"), 'utf8'))
         for (var i=0; i < modules.core.length; i++) {
             modules.core[i].update = "manual"
