@@ -46,6 +46,6 @@ module.exports.nav = nav
         for (var i=0; i < modules.dialogs.length; i++) {
             modules.dialogs[i].update = "manual"
         }
-        fs.writeFileSync(path.join(sessionStore.get("userData"), "modules.json"), JSON.stringify(modules, null, 4), 'utf8')
+        fs.writeFileSync(path.join(sessionStore.get("userData"), "modules2.json"), JSON.stringify(modules, null, 4), 'utf8')
     }
 })();
